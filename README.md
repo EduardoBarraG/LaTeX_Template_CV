@@ -6,7 +6,7 @@ El template del CV original lo pueden ver en : http://www.latextemplates.com/tem
 
 ## Descripción
 
-Esta plantilla de CV es ideal para estudiantes, recién graduados o personas con poca experiencia laboral . El diseño es preciso y tiene pocas entradas por sección. La plantilla también podría ser adaptada a una persona con más experiencia de trabajo pero ten cuidado de no llenarlo a mucho más de dos páginas.
+Esta plantilla de CV es ideal para estudiantes, egresados, recién graduados o personas con poca experiencia laboral . El diseño es preciso y tiene pocas entradas por sección. La plantilla también podría ser adaptada a una persona con más experiencia de trabajo pero ten cuidado de no llenarlo a mucho más de dos páginas.
 
 ## Notas importantes
 
