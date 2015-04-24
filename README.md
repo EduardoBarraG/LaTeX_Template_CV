@@ -2,7 +2,7 @@ LATeX Template CV.
 
 El template del CV original lo pueden ver en : http://www.latextemplates.com/template/plasmati-graduate-cv
 
-# LaTeX Template CV PARA RECIEN GRADUADOS O PERSONAS CON POCA EXPERIENCIA.
+# LaTeX Template CV.
 
 ## Descripción
 
@@ -16,5 +16,5 @@ Este plantilla necesita ser compilada con __XeLaTeX__. Es decir:
 
 ## Autor original
 
-El autor original es Ale(mailto:alessandro.plasmati@gmail.com) pero fue modificado por Eduardo Barra Guzmán.
+El autor original es Alessandro Plasmati (alessandro.plasmati@gmail.com) pero fue modificado por Eduardo Barra Guzmán.
 
