@@ -1,0 +1,129 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,11pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+
+% To reduce the height of the top margin uncomment: 
+\addtolength{\voffset}{-0.3cm}
+\addtolength{\textheight}{3.5cm}
+
+\usepackage{hyperref} % Required for adding links and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%#########################################################################################
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+\par{\centering{\Huge Eduardo \textsc{Barra Guzman}}\bigskip\par} % Your name
+\section{Datos Personales}
+\begin{tabular}{rl}
+\textsc{Fecha de Nacimiento:} &	XX de Febreo 19YY \\
+\textsc{RUT:} &	16.XXX.YYY-Z \\
+\textsc{Dirección:} & Viña del Mar. \\
+\textsc{Celular:} & +569 5 1122777\\
+\textsc{email:} & \href{mailto:mail@gmail.com}{mail@gmail.com}\\
+\end{tabular}
+%#########################################################################################
+
+%#########################################################################################
+%	EDUCACION
+%----------------------------------------------------------------------------------------
+\section{Educación}
+\begin{tabular}{r p{11cm}}	
+\textsc{20XX - 20YY }& Egresado de \textbf{ Ingeniería en XX, Universidad de XX}, Talca.\\
+& Tesis: ``Propuesta de ...''\\
+\multicolumn{2}{c}{}
+\end{tabular}
+%#########################################################################################
+
+
+
+%#########################################################################################
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+\section{Experiencia Laboral}
+\begin{tabular}{r|p{11cm}}
+\textsc{Ene - Feb 2015} & \textbf{Desarrollador en Empresa XXX, Santiago.}\emph{}\\
+& \footnotesize{Programación de aplicación ``Que buena app'' para Android.}\\
+& \footnotesize{Desarrollado en XXX, YY y mySQL en Servidor.}\\
+\multicolumn{2}{c}{} \\
+%------------------------------------------------
+\textsc{Jun 2013 - Oct 2014} & \textbf{Ayudante en Proyecto XXX, Valparaíso.}\\
+& \footnotesize{Programación módulos y algoritmos}\\
+& \footnotesize{Interpretación de resultados.}\\
+\multicolumn{2}{c}{} \\
+
+\end{tabular}
+%#########################################################################################
+
+
+%#########################################################################################
+%	ACTIVIDADES EXTRA CURRICULARES
+%----------------------------------------------------------------------------------------
+\section{Actividades extra curriculares}
+\begin{tabular}{r|p{11cm}}
+\textsc{Mar 2010 - Abr 2013} & \textbf{Coordinador de Finanzas. Universidad XXX, Santiago.}\\ 
+\multicolumn{2}{c}{} \\
+%------------------------------------------------
+\textsc{Marzo 2012} & \textbf{Taller de Debate. Universidad XXX, Viña del Mar.}\\ 
+\multicolumn{2}{c}{}\\
+\end{tabular}
+%#########################################################################################
+
+%#########################################################################################
+%	PERFIL PROFESIONAL
+%----------------------------------------------------------------------------------------
+\section{Perfil Profesional}
+\begin{tabular}{{r|p{11cm}}}
+\textsc{Sistemas Operativos} & Linux, Windows, OSx.\\
+\multicolumn{2}{c}{} \\
+%------------------------------------------------
+\textsc{Lenguajes de Programación} & Nivel Avanzado\\
+& \footnotesize{ PHP, Java, Python.}\\ \\
+\textsc{} & Nivel Intermedio\\ 
+& \footnotesize{ JavaScript, Android(Java), PhoneGap.}\\ \\
+\textsc{} & Nivel Básico\\ 
+& \footnotesize{JQuery, MATLAB.}\\
+\multicolumn{2}{c}{}
+\end{tabular}
+%#########################################################################################
+
+%#########################################################################################
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+\section{Idiomas}
+\begin{tabular}{r l}
+\textsc{Español} & Nativo\\
+\textsc{Inglés} & Básico\\ \\
+\end{tabular}
+%#########################################################################################
+
+
+%#########################################################################################
+%	PUBLICACIONES
+%----------------------------------------------------------------------------------------
+
+\section{Publicaciones}
+
+[1] \textbf{E.barra}, J. Smith, J. Bond ``Virtual Network Provisioning ...'' Transparent Optical Networks (ICTON), 2014 16th International Conference on.
+%#########################################################################################
+
+\end{document}
